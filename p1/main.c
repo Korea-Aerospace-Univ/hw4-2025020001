@@ -11,7 +11,7 @@ int main(void)
         else if (i<j)
             printf("%d>?\n", j);
         else
-            printf("%d==?", j);
+            printf("%d==?\n", j);
         count ++;
     } while(i!=j);
     
