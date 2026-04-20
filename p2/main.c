@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int i=0, count1=0, max1=0, count2=0, max2=0;
     char j='\n';
