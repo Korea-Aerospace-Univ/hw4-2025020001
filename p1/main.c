@@ -15,7 +15,7 @@ int main(void)
         count ++;
     } while(i!=j);
     
-    printf("시도횟수는 %d회",count);
+    printf("%d",count);
 
     return 0;
 }
