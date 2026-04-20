@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int i=0, j=0;
+    int i=0, j=0, count =0;
     scanf("%d", &i);
     do {
         scanf("%d", &j);
@@ -12,9 +12,10 @@ int main(void)
             printf("%d>?\n", j);
         else
             printf("%d==?", j);
-
+        count ++;
     } while(i!=j);
     
+    printf("시도횟수는 %d회",count);
 
     return 0;
 }
