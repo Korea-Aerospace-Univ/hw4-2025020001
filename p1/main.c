@@ -8,11 +8,13 @@ int main(void)
         scanf("%d", &j);
         if (i>j)
             printf("%d<?\n", j);
-        if (i<j);
+        else if (i<j)
             printf("%d>?\n", j);
-    } while(i=j);
-    if (i=j)
-        printf("%d==?", j);
+        else
+            printf("%d==?", j);
+
+    } while(i!=j);
+    
 
     return 0;
 }
