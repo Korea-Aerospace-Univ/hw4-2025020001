@@ -28,3 +28,4 @@ int main(void)
     printf("%d\n", max1); 
     printf("%d", max2); 
     return 0;
+}
